@@ -54,7 +54,7 @@ app.get('/article-one',function(req,res){
 });
 
 app.get('/ui/main.js',function(req,res){
-   res.sendFile(__dirname,"ui","main.js") ;
+   res.sendFile(path.join(__dirname,"ui","main.js") );
 });
 
 app.get('/ui/madi.png', function (req, res) {
