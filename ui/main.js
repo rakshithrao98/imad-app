@@ -4,4 +4,5 @@ button.onclick=function(){
     var sp=document.getElementById("count");
     counter=counter+1;
     sp.innerHTML=counter.toString();
+    
 };
