@@ -5,5 +5,4 @@ button.onclick=function(){
     counter=int(sp.innerHTML);
     counter=counter+1;
     sp.innerHTML=counter.toString();
-    
 };
